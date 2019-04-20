@@ -91,3 +91,5 @@ Media uploads: The point of using the Google Photos API is to ensure that no dat
 
 [google photos](https://developers.google.com/photos/library/guides/overview)
 
+[wireframes](https://balsamiq.cloud/suqlcpf/piiaih4)
+
