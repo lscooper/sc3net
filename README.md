@@ -87,8 +87,6 @@ Media uploads: The point of using the Google Photos API is to ensure that no dat
 ## TECHNOLOGIES
 [nodemailer](https://nodemailer.com/about/)
 
-[https://codeburst.io/sending-an-email-using-nodemailer-gmail-7cfa0712a799](https://codeburst.io/sending-an-email-using-nodemailer-gmail-7cfa0712a799)
-
 [google photos](https://developers.google.com/photos/library/guides/overview)
 
 [wireframes](https://balsamiq.cloud/suqlcpf/piiaih4)
