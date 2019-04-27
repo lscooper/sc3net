@@ -1,0 +1,27 @@
+{
+  "name": "sc3net",
+  "version": "1.0.0",
+  "description": "keep track of big updates!",
+  "main": "server.js",
+  "scripts": {
+    "build": "echo 'build script executed'",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lscooper/sc3net.git"
+  },
+  "author": "Laura Shearer Cooper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lscooper/sc3net/issues"
+  },
+  "homepage": "https://github.com/lscooper/sc3net#readme",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2"
+  }
+}
