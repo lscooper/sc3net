@@ -30,4 +30,6 @@ const domContainer = document.querySelector('#react-posts-container');
 //Change LikeButton to actual name of class
 ReactDOM.render(e(MrKrabsCard), domContainer);
 //ReactDOMServer.renderToString(FriendCard)
+
+
 //export default MrKrabsCard;

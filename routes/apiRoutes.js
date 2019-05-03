@@ -42,7 +42,7 @@ async function main(){
   // send mail with defined transport object
   let info = await transporter.sendMail({
     from: '"SC3.net Notifications" <sc3notification@gmail.com>', // sender address
-    to: "laura.shearer.cooper@gmail.com the.doctor1243@gmail.com", // list of receivers
+    to: "laura.shearer.cooper@gmail.com, the.doctor1243@gmail.com", // list of receivers
     subject: "Post made!", // Subject line
     text: "New post.", // plain text body
     html: "<b>New post?</b>" // html body
