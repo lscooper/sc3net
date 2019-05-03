@@ -13,17 +13,10 @@ module.exports = function(app) {
 
   app.get("/feed", function(req, res) {
     // res.sendFile(path.join(__dirname, "../public/views/survey.handlebars"))
-    res.render("/feed");
+    res.render("feed");
   });
 
-  // Load example page and pass in an example by id
-  app.get("/example/:id", function(req, res) {
-    CoffeeQuiz.findOne({ where: { id: req.params.id } }).then(function(dbExample) {
-      res.render("example", {
-        example: dbExample
-      });
-    });
-  });
+  
 
   // Render 404 page for any unmatched routes
   app.get("*", function(req, res) {
