@@ -11,24 +11,19 @@ var exphbs = require("express-handlebars");
 var logger = require("morgan");
 var mongoose = require("mongoose");
 
-var db = require("./models/AllPosts");
-var db = require("./models/Post");
-var db = require("./models/Users");
+// var db = require("./models/AllPosts");
+// var db = require("./models/Post");
+// var db = require("./models/Users");
 
 var app = express();
 var PORT = process.env.PORT || 8080;
-app.use(express.static("public"));
 
+app.use(express.static('routes/public'))
 
 app.use(logger("dev"));
 mongoose.connect("mongodb://localhost/Posts", {
   useNewUrlParser: true
 });
-
-
-
-
-
 
 var exphbs = require("express-handlebars");
 

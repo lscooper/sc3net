@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  </link>
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  </link>
+  <title>sc3.net</title>
+</head>
+
+<body>
+  <div class="bg">
+
+    <nav>
+      <div class="nav-wrapper blue-grey lighten-1">
+        <a href="#" class="brand-logo right">sc3.net</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="/feed">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/profile">Profile</a></li>
+          <li> <a href="/" class="waves-effect waves-light btn  deep-orange">SIGN OUT</a></li>
+        </ul>
+      </div>
+    </nav>
+    </br>
+    <br>
+
+    <div class="row">
+      <form class="col s8 offset-s2">
+        <div class="row">
+          <div class="input-field col s8 offset-s2">
+            <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <label for="textarea1"></label>
+          </div>
+          <a class="waves-effect waves-light btn  blue-grey darken-3" href="/post">Submit</a>
+        </div>
+      </form>
+    </div>
+
+
+
+
+    <div class="row">
+      <div class="col s8 offset-s3 ">
+          <div class = "row">
+            <div id="like_button_container"></div>
+            <div id="react-posts-div"></div>
+              <div class="card horizontal">
+      
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <p id="user">Laura posted:</p>
+                    <p>I am a very simple card. I am good at containing small bits of information.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="#">Leave a comment...</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class = "row">
+                <div class="card horizontal">
+        
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p id="user">Laura posted:</p>
+                      <p>I am a very simple card. I am good at containing small bits of information.</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#">Leave a comment...</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class = "row">
+                  <div class="card horizontal">
+          
+                    <div class="card-stacked">
+                      <div class="card-content">
+                        <p id="user">Laura posted:</p>
+                        <p>I am a very simple card. I am good at containing small bits of information.</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#">Leave a comment...</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class = "row">
+                    <div class="card horizontal">
+            
+                      <div class="card-stacked">
+                        <div class="card-content">
+                          <p id="user">Laura posted:</p>
+                          <p>I am a very simple card. I am good at containing small bits of information.</p>
+                        </div>
+                        <div class="card-action">
+                          <a href="#">Leave a comment...</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  </div>
+
+
+
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <script src="like_button.js"></script>
+  <script src="../../src/react-posts.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- <script src="../src/mrkrabs.js"></script> -->
+</body>
+
+</html>

@@ -5,17 +5,32 @@
             <li><a href="/feed">Home</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/profile">Profile</a></li>
+            <li> <a href="/" class="waves-effect waves-light btn  deep-orange">SIGN OUT</a></li>
         </ul>
     </div>
 </nav>
 <div class="row">
-    <div class="input-field col s9 offset-s1">
+    <div class="col s7 offset-s1">
         <img src="https://lh3.googleusercontent.com/NcI31bx_3bEeNMEjTXlvDTHx7MYWe86XIa10i7QOpcYhnqFxfUCIZD5jcz6CwAA7IKRSka8DZed3oHqpDFHBsB2YyKegWOPHAwmf4tFKFDAQXAZAYTWKQtBWXH61z_9-NUOLtv_6m4ruPfHbTC5ZbUTYdL3bQpuumahezwDZtenuUk7gJ0JZj5fq2oSiC_fgtWCXwz3e9B0OB3RpIUNTJbjRKz2Rm0rMif-eVygz7SiUo8j8Yu7ZZc6pQezwHul1xq4GC9uxImyBegVwDCKDv2mN_WyKs1oz-6jDI54iOZ53-ik8ze6mOJwN-KwjtiulZW0IymLVS0KrWG4_PhXlCW8cHgJncKgqSZoasMrpj9fy7WvuM2Go_L9eieuLEUq4sX4M09Gju-BpxQ22DMLlJjvYgqwUhSmuvdAiNEBINsCscwTUDYoTFpekbUSe_4PUu_5EYL4ZSaKCRMnoAlKXi_2q5kWVWRP8iQ3lvkLYWkzPyDIEIl1W3f-UvelBDHSEwFfiiO9w8LHL_fKokyvZCTxFNshanlLjF1OreIWbY8-3AHe2WpLz6L6vuHpdMn8BonPJ7hVbNxP_0v7zEH45sPbx_Y6cyo2mkf5wZdnNrBIcd-oX8pRBPuJKBF-cZiDOxDLcFyXzE8z-xQYJ-fziCK7txOe-dmm7=w432-h576-no"
-            alt="profile image" height="400" width="400"></div>
-            <div class="input-field col s1 offset-s1">
-            <a href="/" class="waves-effect waves-light btn  deep-orange">SIGN OUT</a>
+            alt="profile image" height="400" width="400">
+            
             </div>
-            <div class="input-field col s9 offset-s1">
-        <a class="waves-effect waves-light btn  blue-grey darken-3">Select new profile picture</a>
+            <div class=" col s8 offset-s1"> <b>Name: </b> Mr. Chonkers</div>
+            
+           
+            <div class=" col s9 offset-s1">
+        <button data-target="modal1" class="waves-effect waves-light btn modal-trigger blue-grey darken-3">Select new profile picture</button>
+         {{!-- <button data-target="modal1" class="btn modal-trigger">Modal</button> --}}
+  
     </div>
 </div>
+
+       <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Enter an image link.</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Confirm</a>
+    </div>
+  </div>

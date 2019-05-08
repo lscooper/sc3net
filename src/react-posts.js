@@ -1,41 +1,26 @@
 'use strict';
-var React = require('react/addons');
-const e = React.createElement;
+import React, {Component} from 'react'; 
 
- class LikeButton extends React.Component {
-   constructor(props) {
-    super(props);
-    
-  }
-
+export default class PostCard extends Component {
   render() {
-    if (this.state.liked) {
-      
-      <div>AAAAAH</div>
-      return 'You liked this.';
-    }
-
-    
-//Should pull all posts from the database and display them in reverse chronological order
     return e(
-      'button',
-      { onClick: () => this.setState({ liked: true }) },
-      'Like'
+               <div class="card-stacked">
+             <div class="card-content">
+               <p id="user">{this.props.name} posted:</p>
+               <p>I am a very simple card. I am good at containing small bits of information.</p>
+             </div>
+             <div class="card-action">
+               <a href="#">Leave a comment...</a>
+             </div>
+           </div>
+         
     );
   }
-}
+  }
 
 
 
-
-
-
-
-
-
-
-//DO NOT CHANGE THIS
-//const domContainer = document.querySelector('#react-posts-container');
-//Change LikeButton to actual name of class
-//ReactDOM.render(e(FriendCard), domContainer);
-//ReactDOMServer.renderToString(FriendCard)
+  ReactDOM.render(
+    <PostCard name="Steve" />,
+    document.getElementById('#react-posts-div')
+  );
