@@ -11,6 +11,14 @@ var UserSchema = new Schema({
   password: {
         type: String,
         required: true
+    },
+    profileimg: {
+        type: String,
+        required: false
+    },
+    email: {
+        type: String,
+        required: true
     }
 });
 

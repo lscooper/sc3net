@@ -1,12 +1,10 @@
 'use strict';
-// var Posts = _interopRequireDefault(require("../../posts.json"));
-
-// function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var Posts = require("../models/Post.js");
 const e = React.createElement;
 
 class PostCard extends React.Component {
 
- // state ={ Posts };
+state ={ Posts };
 
   render() {
     return (
@@ -22,18 +20,18 @@ class PostCard extends React.Component {
 
            e(
              "p", 
-             {id: "user"}, 
+             {id: "user-posted"}, 
              "Steve posted:"
             ), 
             e(
               "p", 
               null, 
-              "I am a very simple card. I am good at containing small bits of information."
+              "I am SO EXCITED about my upcoming trip to Italy!"
             )
         ), 
         e(
           "div", 
-          {className: "card-action"}, 
+          {className: "card-comments"}, 
           e(
             "a", 
             {href: "#"}, 
