@@ -1,10 +1,10 @@
 'use strict';
-var Posts = require("../models/Post.js");
+// var Posts = require("../models/Post.js");
 const e = React.createElement;
 
 class PostCard extends React.Component {
 
-state ={ Posts };
+// state ={ Posts };
 
   render() {
     return (
@@ -37,8 +37,12 @@ state ={ Posts };
             {href: "#"}, 
             "Leave a comment..."
           )
+          
         )
+        
       )
+      
+      
     );
 
   }
