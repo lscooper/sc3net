@@ -1,5 +1,7 @@
 sc3.net
 ======
+## STATUS
+In-progress
 
 ## WHAT
 
